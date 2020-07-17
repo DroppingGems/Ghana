@@ -20,5 +20,4 @@ class Financial
   def net_income
     gross - taxes
   end
-
 end

@@ -1,4 +1,4 @@
-require "rails_helper"
+require 'rails_helper'
 
   RSpec.describe Financial do
     let(:wage) { 20 }
@@ -17,7 +17,7 @@ require "rails_helper"
         describe "taxes" do
           it "should return gross * rate" do
             f = Financial.new(wage, hours, rate)
-            expect(f.taxes).to eq (f.grossr * f.rate)
+            expect(f.taxes).to eq (f.gross * f.rate)
           end
         end
       end
