@@ -26,3 +26,9 @@
 <!--# (balance * (( i / 1200 ) * ( 1 + ( i / 1200 )) ^ Length ) / (( 1 + ( i / 1200 )) ^ Length - 1 ), 2 )-->
 
 
+    q1 = "What type of property?\n(a)Single Family\n(b)Multi-Family"
+q2 = "Please Enter Address"
+q3 = "Number of Bedrooms?"
+q4 = "Number of Bathroom?"
+q5 = "Please enter square footage"
+q6 = "Asking Price?"
